@@ -28,6 +28,7 @@ OpenCV was used for image preprocessing. The procedures are mentioned below-
 * Dilation
 * Thresholding
 * Modified Canny Edge Detecion
+
 ![alt text](https://github.com/Subhanshu20101/FoodExpert-rapid-screening-Adulterated-Pulse/blob/main/images/Preprocessing.png)
 
 
