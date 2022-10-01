@@ -21,7 +21,7 @@ To address this issue, we propose, FoodExpert, which detects the metanil yellow 
 * [Raspberry Pi](https://www.raspberrypi.com/)
 
 ## Methodology
-### Preprocessing
+### Preprocessing and Contour Extraction
 OpenCV was used for image preprocessing. The procedures are mentioned below-
 * Grey Scaling
 * Erosion
@@ -30,6 +30,10 @@ OpenCV was used for image preprocessing. The procedures are mentioned below-
 * Modified Canny Edge Detecion
 
 ![alt text](https://github.com/Subhanshu20101/FoodExpert-rapid-screening-Adulterated-Pulse/blob/main/images/Preprocessing.png)
+
+### Feature extraction and K-means Clustering
+After the contour detection, we plot the contour on a black masked image to remove any excess background bleed. We return to contour detection after successfully plotting, which again estimates a bounding ellipse around each pulse. To maximise ROI without including background, we fit a maximum area rectangle inside the detected ellipse. 
+![alt text](https://github.com/Subhanshu20101/FoodExpert-rapid-screening-Adulterated-Pulse/blob/main/images/Max_are_elleipse.png)
 
 
 ## Contact
