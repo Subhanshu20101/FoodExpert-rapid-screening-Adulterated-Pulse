@@ -13,6 +13,24 @@ To address this issue, we propose, FoodExpert, which detects the metanil yellow 
 * The model effectively distinguishes between different adulteration degrees using color space characteristics (bins of K-means Clustering) as an input vector. 
 * The model's effectiveness on a test set of 2123 data points was about 94%, and on a real-world data set of 100 photos, it was about 87%. The pictures' Root Mean Square (RMS) error for the colour characteristics of random grains is 0.096. 
 
+## Technology Stack
+* [Visual Studio Code](https://code.visualstudio.com/)
+* [Python 3.8.0](https://www.python.org/downloads/release/python-380/)
+* [OpenCV](https://opencv.org/)
+* [EvalML](https://evalml.alteryx.com/en/stable/#)
+* [Raspberry Pi](https://www.raspberrypi.com/)
+
+## Methodology
+### Preprocessing
+OpenCV was used for image preprocessing. The procedures are mentioned below-
+* Grey Scaling
+* Erosion
+* Dilation
+* Thresholding
+* Modified Canny Edge Detecion
+![alt text]
+
+
 ## Contact
 
 Subhanshu Arya - subhanshu20101@iiitnr.edu.in
