@@ -42,6 +42,12 @@ We used the EvalML library to select the model with the best performance. As sho
 
 ![alt text](https://github.com/Subhanshu20101/FoodExpert-rapid-screening-Adulterated-Pulse/blob/main/images/models.png)  
 
+### Implementing Hardware Setup
+We used Raspeberry Pi as our microcontroller and a CMOS based pixel sensor to capture images. The remaining setup is shown below.
+
+
+![alt text](https://github.com/Subhanshu20101/FoodExpert-rapid-screening-Adulterated-Pulse/blob/main/images/hardware.png)
+
 ## Contact
 
 Subhanshu Arya - subhanshu20101@iiitnr.edu.in
