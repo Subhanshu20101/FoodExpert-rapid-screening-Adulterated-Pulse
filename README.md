@@ -34,7 +34,7 @@ OpenCV was used for image preprocessing. The procedures are mentioned below-
 ### Feature extraction and K-means Clustering
 After the contour detection, we plot the contour on a black masked image to remove any excess background bleed. We return to contour detection after successfully plotting, which again estimates a bounding ellipse around each pulse. To maximise ROI without including background, we fit a maximum area rectangle inside the detected ellipse. Also, because the fitted rectangle can be in various rotated configurations, we wrap a perspective transformation around it to make it a normal rectangle as shown below. 
 
-![alt text](https://github.com/Subhanshu20101/FoodExpert-rapid-screening-Adulterated-Pulse/blob/main/images/Max_are_elleipse.png) ![alt text](https://github.com/Subhanshu20101/FoodExpert-rapid-screening-Adulterated-Pulse/blob/main/images/wrapPerspective.png)
+![alt text](https://github.com/Subhanshu20101/FoodExpert-rapid-screening-Adulterated-Pulse/blob/main/images/Max_are_elleipse.png)        ![alt text](https://github.com/Subhanshu20101/FoodExpert-rapid-screening-Adulterated-Pulse/blob/main/images/wrapPerspective.png)
 
 
 
