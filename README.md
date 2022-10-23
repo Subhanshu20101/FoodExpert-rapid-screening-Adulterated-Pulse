@@ -48,6 +48,16 @@ We used Raspeberry Pi as our microcontroller and a CMOS based pixel sensor to ca
 
 ![alt text](https://github.com/Subhanshu20101/FoodExpert-rapid-screening-Adulterated-Pulse/blob/main/images/hardware.png)
 
+## Some Results
+* Classification metrics based on test dataset
+ 
+![alt text](https://github.com/Subhanshu20101/FoodExpert-rapid-screening-Adulterated-Pulse/blob/main/images/metrics.png)
+
+* Confusion matrix for Overall Dataset
+
+![alt text](https://github.com/Subhanshu20101/FoodExpert-rapid-screening-Adulterated-Pulse/blob/main/images/confusiionmatrix.png)
+
+
 ## Contact
 
 Subhanshu Arya - subhanshu20101@iiitnr.edu.in
