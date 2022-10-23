@@ -36,7 +36,10 @@ After the contour detection, we plot the contour on a black masked image to remo
 
 ![alt text](https://github.com/Subhanshu20101/FoodExpert-rapid-screening-Adulterated-Pulse/blob/main/images/Max_are_elleipse.png)        ![alt text](https://github.com/Subhanshu20101/FoodExpert-rapid-screening-Adulterated-Pulse/blob/main/images/wrapPerspective.png)
 
+### Machine learning model Execution
 
+We used the EvalML library to select the model with the best performance. As shown below, the Random Forest Classifier was the best fit model. 
+![alt text](https://github.com/Subhanshu20101/FoodExpert-rapid-screening-Adulterated-Pulse/blob/main/images/models.png)  
 
 ## Contact
 
